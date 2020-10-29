@@ -1,0 +1,51 @@
+
+.menu{
+        display:inline-block;
+        background-color: paleturquoise;
+        color:palevioletred;
+        padding: 10px 20px;
+        text-decoration: none;
+    
+}
+
+.menu:hover{
+    background-color: papayawhip;
+}
+
+.contenedor{
+    background-color: pink;
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botonMenu{
+
+    background-color:paleturquoise;
+    color:palevioletred;
+    padding: 10px 20px;
+    border: 2px solid aliceblue;
+    display:none;
+}
+
+
+@media (max-width: 600px) {
+    .contenedor{
+        background-color:purple;
+        flex-direction: column;
+    }
+
+    .menu{
+        margin: 10px 0px;
+    }
+
+    .botonMenu{
+        display:inline-block;
+    }
+
+    .desaparece{
+
+        display: none;
+    
+    }
+}
